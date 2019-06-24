@@ -1,0 +1,31 @@
+# This command initialize the folder for the git 
+git init 
+# add any file to the repository or that folder
+# This command will show you the status of the repository
+git status
+# After this we can add files
+	# This is to add perticular file
+	git add [filename] 
+	git add -A # This is to add all files
+# We need then commit
+git commit -m "Put one sentence which define your changes"
+
+# For first time you doing for any folder then you have to make the new repository at github. There by clicking on the New repository button from '+' kind of button, we can create the new repository. 
+# After that we will get new url for our new repository 
+git remote add origin "url of the git repository"
+Example: git remote add origin https://github.com/MachineLearning-Nerd/Git-Cheatsheets.git
+# Then we have push all the content to the remote repository
+git push -u origin master
+
+# Now file has been uploaded to your remote repository
+
+
+# If you want to clone some repository then 
+git clone [repository url]
+cd [repository name]
+
+##################################################
+# make a new branch to work 
+git branch #This command shows all the branches got the current repository
+git branch Mycheatsheet #This will create new branch named Mycheatsheet
+git checkout Mycheatsheet #This will switch the branch from master to Mycheatsheet
