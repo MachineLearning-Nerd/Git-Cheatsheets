@@ -40,3 +40,6 @@ git branch -a #This will show all the branch (remote also)
 git mergre Mychearsheet #This will merge two branch
 git push origin master
 git branch --merged #This will show that whether branches are merged or not
+git branch -d mygitcheatsheet # To delete the branch from local repository
+git push origin --delete mygitchearsheet
+
