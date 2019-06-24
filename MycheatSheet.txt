@@ -24,8 +24,19 @@ git push -u origin master
 git clone [repository url]
 cd [repository name]
 
-##################################################
+############################################################
 # make a new branch to work 
 git branch #This command shows all the branches got the current repository
 git branch Mycheatsheet #This will create new branch named Mycheatsheet
 git checkout Mycheatsheet #This will switch the branch from master to Mycheatsheet
+git add -A #This will add all the changes
+git commit -m "added Mycheatsheet" #This will do the commit
+git push -u origin Mycheatsheet #This will commit the changes to the Mycheatsheet branch
+############################################################
+# to merge the branch to the origin master branch
+git checkout master #Change current branch
+git branch #This will show all the branches and it will also show the current branch with different color
+git branch -a #This will show all the branch (remote also)
+git mergre Mychearsheet #This will merge two branch
+git push origin master
+git branch --merged #This will show that whether branches are merged or not
