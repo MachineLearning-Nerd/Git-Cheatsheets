@@ -37,7 +37,7 @@ git push -u origin Mycheatsheet #This will commit the changes to the Mycheatshee
 git checkout master #Change current branch
 git branch #This will show all the branches and it will also show the current branch with different color
 git branch -a #This will show all the branch (remote also)
-git mergre Mychearsheet #This will merge two branch
+git merge Mychearsheet #This will merge two branch
 git push origin master
 git branch --merged #This will show that whether branches are merged or not
 git branch -d mygitcheatsheet # To delete the branch from local repository
